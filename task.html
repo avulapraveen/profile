@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo Section -->
+            <div class="logo">
+                <a href="/">LOGO HERE</a>
+            </div>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="nav-content">
+                <ul class="nav-links primary">
+                    <li><a href="#">Reseller</a></li>
+                    <li class="dropdown">
+                        <a href="#">Products <span class="dropdown-arrow">▾</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Product 1</a></li>
+                            <li><a href="#">Product 2</a></li>
+                            <li><a href="#">Product 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Video Tutorials</a></li>
+                    <li><a href="#">Free Tools</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Knowledge Base</a></li>
+                </ul>
+
+                <ul class="nav-links secondary">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#" class="sign-in">Sign in ></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main-container">
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb">
+            <div class="breadcrumb-container">
+                <a href="/">Home</a>
+                <span class="separator">></span>
+                <span class="current">Lorem Ipsum Tool</span>
+            </div>
+        </div>
+
+        <!-- Content Container -->
+        <div class="container">
+            <!-- Main Header -->
+            <h1 class="header">eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
+            <h1 class="header-min">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            
+            <!-- Play Button -->
+            <div class="play-button">
+                <div class="play">
+                    <img src="video-play-icon.png">
+                </div>
+            </div>
+
+            <!-- Pricing Section -->
+            <div class="pricing">
+                <h4>Just <span class="price">$200</span> For <span class="mailboxes">100</span> Mailboxes</h4>
+            </div>
+
+            <!-- Call-to-Action Buttons -->
+            <div class="cta-container">
+                <a href="#" class="btn btn-free">Free Download</a>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-buy">Buy Now!</a>
+                    <span class="discount-badge">75<span class="percent">%</span><span class="off">OFF</span></span>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="features">
+                <div class="feature-column">
+                    <!-- Feature Items -->
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <div class="icon-container">
+                                <div class="icon icon-1"></div>
+                            </div>                        
+                        </div>
+                        <span>Scelerisque eleifend</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <div class="icon-container">
+                                <div class="icon icon-2"></div>
+                            </div>                        
+                        </div>
+                        <span>Felis eget nunc lobortis</span>
+                    </div>
+                </div>
+
+                <div class="feature-column">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <div class="icon-container">
+                                <div class="icon icon-3"></div>
+                            </div>
+                        </div>
+                        <span>Mattis nunc sed blandit</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <div class="icon-container">
+                                <div class="icon icon-4"></div>
+                            </div>                        
+                        </div>
+                        <span>Felis eget nunc lobortis</span>
+                    </div>
+                </div>
+
+                <div class="feature-column">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <div class="icon-container">
+                                <div class="icon icon-5"></div>
+                            </div>                        
+                        </div>
+                        <span>Mattis nunc sed blandit</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <div class="icon-container">
+                                <div class="icon icon-6"></div>
+                            </div>                        
+                        </div>
+                        <span>Felis eget nunc lobortis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mid Navigation Section -->
+    <nav class="nav-mid">
+        <div class="nav-container-mid">
+            <h3>Product Menu</h3>
+            <button class="menu-button" onclick="toggleMenu()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            
+            <ul class="nav-mid-list">
+                <li class="nav-mid-item">
+                    <a href="#" class="nav-mid-link">
+                        <div class="icons icon-overview"></div>
+                        Overview
+                    </a>
+                </li>
+                <li class="nav-mid-item">
+                    <a href="#" class="nav-mid-link">
+                        <div class="icons icon-features"></div>
+                        Features
+                    </a>
+                </li>
+                <li class="nav-mid-item">
+                    <a href="#" class="nav-mid-link">
+                        <div class="icons icon-how"></div>
+                        How it works
+                    </a>
+                </li>
+                <li class="nav-mid-item">
+                    <a href="#" class="nav-mid-link">
+                        <div class="icons icon-manual"></div>
+                        User Manual
+                    </a>
+                </li>
+                <li class="nav-mid-item">
+                    <a href="#" class="nav-mid-link">
+                        <div class="icons icon-faq"></div>
+                        FAQ
+                    </a>
+                </li>
+                <li class="nav-mid-item">
+                    <a href="#" class="nav-mid-link">
+                        <div class="icons icon-videos"></div>
+                        Videos
+                    </a>
+                </li>
+                <li class="nav-mid-item">
+                    <a href="#" class="nav-mid-link">
+                        <div class="icons icon-pricing"></div>
+                        Pricing
+                    </a>
+                </li>
+                <li class="nav-mid-item">
+                    <a href="#" class="nav-mid-link">
+                        <div class="icons icon-screenshots"></div>
+                        Screenshots
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner-container">
+        <div class="banner-content">
+            <img src="accelerate_img.jpg" alt="Woman with laptop" class="banner-image">
+            <div class="container-text">
+                <p class="banner-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>dolore magna aliqua
+                    <span class="highlight"> - Now 10X Faster!</span>
+                </p>
+                <p class="banner-text-res">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, Nulla eiusmod lacus vitae rhoncus maleshuda. 
+                    <span class="highlight-res"><br> - Now 10X Faster!</span>
+                </p>
+            </div>
+        </div>
+    </div>
+   
+    <div class="content-container">        
+        <div class="content-left">
+            <h3 class="top-text">dolore magna aliqua dolore magna aliqua!</h3>
+            <div class="content-section">
+                <h1>Ante metus dictum at tempor commodo ullamcorper</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Amet mauris commodo quis imperdiet massa tincidunt. Quisque egestas diam in arcu cursus euismod.</p>
+                <p>Tincidunt id aliquet risus feugiat in ante metus. Dui accumsan sit amet nulla facilisi morbi. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Ut placerat orci nulla pellentesque. Diam vel quam elementum pulvinar etiam non quam. Odio ut sem nulla pharetra diam. Tortor condimentum lacinia quis vel.</p>
+                <p>Tincidunt id aliquet risus feugiat in ante metus. Dui accumsan sit amet nulla facilisi morbi. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Ut placerat orci nulla pellentesque. Diam vel quam elementum pulvinar etiam non quam. Odio ut sem nulla pharetra diam. Tortor condimentum lacinia quis vel.</p>
+            </div>
+        </div>
+
+        <div class="content-right">
+            <div class="content-section">
+                <h2>Ante metus dictum at tempor commodo ullamcorper</h2>
+                <p>Tincidunt id aliquet risus feugiat in ante metus. Dui accumsan sit amet nulla facilisi morbi. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Ut placerat orci nulla pellentesque. Diam vel quam elementum pulvinar etiam non quam. Odio ut sem nulla pharetra diam. Tortor condimentum lacinia quis vel.</p>
+            </div>
+            
+            <div class="content-section">
+                <h2>Ante metus dictum at tempor commodo ullamcorper</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Amet mauris commodo quis imperdiet massa tincidunt. Quisque egestas diam in arcu cursus euismod.</p>
+            </div>
+            
+            <div class="content-section">
+                <h2>Ante metus dictum at tempor commodo ullamcorper</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Amet mauris commodo quis imperdiet massa tincidunt. Quisque egestas diam in arcu cursus euismod.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-hidden-container">
+        <div class="top-text">Lorem ipsum dolor sit amet consectetur.</div>
+        
+        <div class="content-left">
+            <div class="content-hidden-section">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Nulla euismod lacus vitae rhoncus maleshuda. Fusce mattis vestibulum odio, ac pulvinar elit scelerisque in. Aenean molestie, mi vitae interdum consequat, mi enium matties elit, at facilisi nisl lorem non nunc.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Nulla euismod lacus vitae rhoncus maleshuda. Fusce mattis vestibulum odio, ac pulvinar elit scelerisque in. Aenean molestie, mi vitae interdum consequat, mi enium matties elit, at facilisi nisl lorem non nunc.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Nulla euismod lacus vitae rhoncus maleshuda. Fusce mattis vestibulum odio, ac pulvinar elit scelerisque in. Aenean molestie, mi vitae interdum consequat, mi enium matties elit, at facilisi nisl lorem non nunc.</p>
+            </div>
+        </div>
+
+        <div class="content-right">
+            <div class="content-section">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Nulla euismod lacus vitae rhoncus maleshuda. Fusce mattis vestibulum odio, ac pulvinar elit scelerisque in. Aenean molestie, mi vitae interdum consequat, mi enium matties elit, at facilisi nisl lorem non nunc.</p>
+            </div>
+            
+            <div class="content-section">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Nulla euismod lacus vitae rhoncus maleshuda. Fusce mattis vestibulum odio, ac pulvinar elit scelerisque in. Aenean molestie, mi vitae interdum consequat, mi enium matties elit, at facilisi nisl lorem non nunc</p>
+            </div>   
+        </div>
+    </div>
+
+    <div class="mail-container">
+        <div class="image-container">
+            <img src="bg-how-does-office365-mailbox-work.jpg">
+            <div class="image-text-container">
+                <h1>Quisque egestas diam in arcu cursus euismod</h1>
+                <h4>sed do euismod incididunt ut labore et dolore magna aliqua</h4>
+                <p>1.  Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p>2.  Tincidunt id aliquet risus feugiat in ante metus</p>
+                <p>3.  Pretium vulputate sapien nec sagittis aliquam malesuada bibendum</p>
+                <p>4.  Eget nullam non nisi est sit amet</p>
+                <button>Try For Free!</button>
+            </div>
+            <div class="video-icon">
+                <img src="video-play-icon.png">
+            </div>
+        </div>
+
+        <div class="mail-hidden-container">
+            <div class="image-hidden-container">
+                <div class="image-hidden-text-container">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla euismod lacus vitae rhoncus maleshuda</h4>
+                    <p>1.  Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p>2.  Lorem ipsum dolor sit amet consectetur</p>
+                    <p>3.  Lorem ipsum dolor sit amet</p>
+                    <p>4.  Lorem ipsum dolor sit amet consectetur</p>
+                    <button>Try For Free!</button>
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Lorem Ipsum</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Video Tutorials</a></li>
+                    <li><a href="#">Technical Support</a></li>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <div class="company-info">
+                    <p>Company Inc.</p>
+                    <p>Rehoboth Beach, DE</p>
+                    <p>United States</p>
+                    <p>+1 (302) 416-3056</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <ul class="footer-bottom-links">
+                <li><a href="#">Privacy Policy </a></li>
+                <li><a href="#">Terms of Use </a></li>
+                <li><a href="#">GDPR </a></li>
+                <li><a href="#">Security </a></li>
+                <li><a href="#">Press Releases</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
